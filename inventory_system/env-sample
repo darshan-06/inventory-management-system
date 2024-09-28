@@ -1,0 +1,14 @@
+DEBUG = False
+
+SECRET_KEY = key
+
+# database
+DB_NAME = inventory_db
+DB_USER = user
+DB_PASSWORD = password
+DB_HOST = host
+
+# cache
+CACHE_LOCATION = redis://:password@host:port/db
+
+PAGE_SIZE = 5
